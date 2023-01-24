@@ -1,142 +1,107 @@
-body {
-    background-color: #10E37F;
-
+/* your code here */
+body{
+    background-color: #90ee90;
 }
-
-.container {
-    margin: 0px auto;
-    width: fit-content;
-    align-items: center;
+.product_container{
+   margin: 0px auto;
+   width:fit-content;
+   display: flex;
+    margin-top: 10%;
+}
+.product_details{
+    width:500px;
+    background-color: white;
+    height:500px;
     display: flex;
-    margin-top: 50px;
-
 }
-
-.product_details {
-    width: 550px;
-    background-color: aliceblue;
-    height: 600px;
-    display: flex;
-
-}
-
-.product_img {
-    width: 280px;
-    height: 500px;
+.product_image{
+    width:300px;
+    /* background-color: black; */
+    height: 400px;
     border-radius: 10px;
     position: relative;
-    left: 180px;
-    top: 5px;
-    /* margin-top: 7%; */
+    left:250px;
+    top:3px;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
-    box-shadow: 10px 7px 24px -5px rgba(0, 0, 0, 0.47);
+    box-shadow: 4px 6px 24px -5px rgba(0,0,0,0.75);
+
 
 }
-
-.details_first {
-    flex: 0.4;
-    background-color: rgb(251, 249, 249);
+.image1{
+    flex: 0.45;
+    /* background-color:palevioletred; */
 }
-
-.details_second {
-    flex: 0.6;
-    background-color: rgb(248, 245, 250);
-    padding: 20px 20px;
-    font-family: Arial, Helvetica, sans-serif;
+.image2{
+    flex:0.55;
+    /* background-color: aqua; */
+    padding-left:50px;
+    
 }
-
-.code_text {
-    font-size: 12px;
-    opacity: 0.5;
-    font-weight: bold;
+.code_test{
+   font-size: 12px;
+   opacity: 0.3;
 }
-
-.rs {
+.cost_test{
     color: red;
     font-size: 20px;
 }
-
-.price {
-    font-size: 70px;
+.cost_price{
+    font-size: 40px; 
 }
-
-.button {
-    height: 50px;
-    width: 130px;
-    font-size: 16px;
-    margin-top: 10px;
-    text-align: center;
-    font-size: medium;
-
-    color: white;
-    background-color: #FE3F40;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 3px 2px 3px rgb(177, 174, 174);
-}
-
-.button:hover {
+.color_image:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+    transform: scale(0.9);
     cursor: pointer;
-    background-color: rgb(192, 194, 195);
-}
-
-.select_color {
-    margin: 30px auto;
-    border: 2px 2px rgb(22, 20, 20);
-}
-
-.newdivimg {
-    border: 2px solid rgb(152, 150, 150);
-}
-
-.select_color :hover {
-
-    cursor: pointer;
-    border: 2px solid rgb(118, 116, 116);
 
 }
-
-.benefits {
-    font-family: Arial, Helvetica, sans-serif;
+.image_container{
+    display: flex;
+}
+li{
     font-size: 13px;
-    line-height: 1.6;
 }
-
-.top {
-    flex: 0.8;
-    background: radial-gradient(#f4f4f4 30%, #adff2f 70%);
-    border-radius: 10px 10px 0px 0px;
-
+.add_to_cart_btn{
+    background-color: red;
+    color:white;
+    padding:20px 35px;
+    border:none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 25px -5px grey;
 }
-
-.bottom {
-    flex: 0.2;
+.top-section{
+    flex:0.8;
+  background: radial-gradient(#f4f4f4 30%, #adff2f 70%);
+  border-radius: 10px 10px 0px 0px;
+}
+.bottom-section{
+    flex:0.2;
     background-color: white;
     padding-top: 20px;
-    padding-left: 10px;
+    padding-left: 20px;
     border-radius: 0px 0px 10px 10px;
-
 }
-
-.appleimg {
+.apple-image{
     position: absolute;
-    left: -100px;
-    height: 300px;
-    top: 25px;
+    left:-100px;
+    height:300px;
+    top:25px;
 }
-
-.apple_img {
-    border: 1px solid grey;
-    transform: scale(0.9);
+.apple_ima{
+    border:0.1px solid grey;
+    /* transform: scale(0.9); */
 }
-
-.ion {
-    color: #f4f4f4;
-    margin: 10px;
+.icon1{
+    color:white;
+    margin:10px;
 }
-
-.ion2 {
+.icon2{
+    color:white;
     float: right;
-    color: #f4f4f4;
+    margin:15px;
+}
+.apple_ima:hover{
+    transform: scale(0.9);
 }
